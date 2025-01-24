@@ -28,8 +28,8 @@ namespace API_BAS
 
                 var requestBody = new Dictionary<string, string>
                 {
-                { "username", "ec32110b5a8f46ff8596ac6e12042539" },
-                { "password", "c327d2225298409da288af55744672ae" },
+                { "username", "624afccc18f040768753d44cf57d408f" },
+                { "password", "3769b9ff505141dcb5a84d976b609b95" },
                 { "grant_type", "password" }
                 };
 
@@ -42,7 +42,7 @@ namespace API_BAS
                     Content = content
                 };
 
-                  request.Headers.Authorization = new AuthenticationHeaderValue("BASIC", "ZWMzMjExMGI1YThmNDZmZjg1OTZhYzZlMTIwNDI1Mzk6YzMyN2QyMjI1Mjk4NDA5ZGEyODhhZjU1NzQ0NjcyYWU=");
+                  request.Headers.Authorization = new AuthenticationHeaderValue("BASIC", "NjI0YWZjY2MxOGYwNDA3Njg3NTNkNDRjZjU3ZDQwOGY6Mzc2OWI5ZmY1MDUxNDFkY2I1YTg0ZDk3NmI2MDliOTU=");
                 
                 try
                 {
@@ -102,12 +102,13 @@ namespace API_BAS
                                        
    
     ""max_count""      : 50,
-    ""client_code""    : ""LEIGHTON"",
-    ""site_code""      : ""Polaris"",
-    ""location_code""  : ""ALL"",
-     ""mode""          : ""D"",
-    ""fromdate""       : ""2024-12-05T00:00:00.00+01:00"",
-    ""todate""         : ""2024-12-07T23:59:59.00+01:00""
+      ""client_code""   : ""URBANRISE_LIFESTYLES"",
+    ""site_code""     : ""ALL"",
+    ""location_code"" : ""ALL"",
+    ""mode""          : ""D"",
+    ""fromdate""      : ""2025-01-02T00:00:00"",
+    ""todate""        : ""2025-01-02T23:59:59""
+
 
 }";
 
